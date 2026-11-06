@@ -19,8 +19,21 @@ add_subdirectory(src)
 # add_subdirectory(test)
 
 add_custom_target(
-    copy-compile-commands ALL
-    ${CMAKE_COMMAND} -E copy_if_different
+    copy-compile-commands
+    ALL
+    ${CMAKE_COMMAND}
+        -E copy_if_different
         ${CMAKE_BINARY_DIR}/compile_commands.json
         ${CMAKE_CURRENT_LIST_DIR}
-    )
+    COMMENT "Updating compile_commands.json"
+)
+
+add_custom_target(
+    copy-assets
+    ALL
+    ${CMAKE_COMMAND}
+        -E copy_directory_if_different
+        ${CMAKE_CURRENT_LIST_DIR}/assets
+        ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/assets
+    COMMENT "Updating assets"
+)
