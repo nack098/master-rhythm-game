@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/Projects/master/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -DPROJECT_NAME=graphics-lab-engine -ID:\\Projects\\master\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -clang:-std=c++23 -MDd -Zi /Fosrc\\CMakeFiles\\runtime.dir\\main.cpp.obj /Fdsrc\\CMakeFiles\\runtime.dir\\ -c -- D:\\Projects\\master\\src\\main.cpp",
+  "file": "D:\\Projects\\master\\src\\main.cpp",
+  "output": "src\\CMakeFiles\\runtime.dir\\main.cpp.obj"
+},
+{
+  "directory": "D:/Projects/master/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -DPROJECT_NAME=graphics-lab-engine -ID:\\Projects\\master\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -clang:-std=c++23 -MDd -Zi /Fosrc\\CMakeFiles\\runtime.dir\\exception.cpp.obj /Fdsrc\\CMakeFiles\\runtime.dir\\ -c -- D:\\Projects\\master\\src\\exception.cpp",
+  "file": "D:\\Projects\\master\\src\\exception.cpp",
+  "output": "src\\CMakeFiles\\runtime.dir\\exception.cpp.obj"
+},
+{
+  "directory": "D:/Projects/master/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -DPROJECT_NAME=graphics-lab-engine -ID:\\Projects\\master\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -clang:-std=c++23 -MDd -Zi /Fosrc\\CMakeFiles\\runtime.dir\\environment.cpp.obj /Fdsrc\\CMakeFiles\\runtime.dir\\ -c -- D:\\Projects\\master\\src\\environment.cpp",
+  "file": "D:\\Projects\\master\\src\\environment.cpp",
+  "output": "src\\CMakeFiles\\runtime.dir\\environment.cpp.obj"
+},
+{
+  "directory": "D:/Projects/master/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -DPROJECT_NAME=graphics-lab-engine -ID:\\Projects\\master\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -clang:-std=c++23 -MDd -Zi /Fosrc\\CMakeFiles\\runtime.dir\\file_reader.cpp.obj /Fdsrc\\CMakeFiles\\runtime.dir\\ -c -- D:\\Projects\\master\\src\\file_reader.cpp",
+  "file": "D:\\Projects\\master\\src\\file_reader.cpp",
+  "output": "src\\CMakeFiles\\runtime.dir\\file_reader.cpp.obj"
+}
+]
