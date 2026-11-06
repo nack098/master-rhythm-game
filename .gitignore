@@ -1,0 +1,31 @@
+# CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+Testing/
+
+# Visual Studio
+.vs/
+out/
+*.sln
+*.vcxproj*
+*.user
+
+# Compiled binaries
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.a
+*.so
+*.o
+
+# IDE
+.idea/
+.vscode/
